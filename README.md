@@ -5,16 +5,21 @@ A cute little furry beast will live in your touch bar, sleeping peacefully - or 
 Great to calm your fidgets and reduce some anxiety.
 
 ![PET](PET.png)
+![Screenshot 1](scrsht.jpg)
+![Screenshot 2](scrsht.jpg)
 
 
 ## ... what?
 It's an app. For Macs that have touch bars (so: MacBook Pros).
 When it's running and in foreground, your furry friend will appear in your touchbar.
 
-### To get it to purr: 
+#### To get it to purr: 
 Pet it for a bit! At some point it will start looking happy and purring.
 
-### Butbut, it's screeching!!
+#### Nothing's happening:
+Patience! Or: Check your volume.
+
+#### Butbut, it's screeching!!
 Don't go against the fur or too quickly! Noone likes that
 
 ## Get it (for non-developers):
@@ -33,3 +38,9 @@ Nothing special:
 
 ## But I don't have a Touch Bar :'(
 Then this is probably not for you, unfortunately :/ You can use XCode to fake a TouchBar and then use your trackpad or mouse to pet - but it won't be the same.
+
+## That code looks like sh*t
+Yes, it does. This is a fun little toy, all good software engineering practices were ignored. With a vengence.
+
+## License?
+Nah.
