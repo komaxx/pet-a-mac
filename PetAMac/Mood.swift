@@ -10,7 +10,7 @@ import Cocoa
 
 class Mood {
     let screechDuration : TimeInterval = 1
-    let screechThreshold = -0.9
+    let screechThreshold = -0.8
     
     public private(set) var mood : Double = 0
     public private(set) var awakeness : Double = 0
@@ -71,7 +71,7 @@ class Mood {
         
         if !isScreeching(){
             if petting {
-                mood += 0.007
+                mood += 0.02
                 mood = min(1.5, mood)
             } else if bothering {
                 mood -= 0.015
