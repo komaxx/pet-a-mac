@@ -6,7 +6,7 @@ A cute little furry beast will live in your touch bar, sleeping peacefully - or 
 
 ## Get it (for non-developers):
 
-[PetAMac.app](PetAMac.app)
+[PetAMac.app](PetAMac.zip)
 
 ## Build it (For you developers out there):
 Nothing special:
