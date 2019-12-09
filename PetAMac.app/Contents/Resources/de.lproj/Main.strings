@@ -1,0 +1,33 @@
+
+/* Class = "NSMenuItem"; title = "Customize Toolbar…"; ObjectID = "1UK-8n-QPP"; */
+"1UK-8n-QPP.title" = "Toolbar anpassen…";
+
+/* Class = "NSMenuItem"; title = "PetAMac"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "PetAMac";
+
+/* Class = "NSMenuItem"; title = "Quit PetAMac"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "PetAMac Beenden";
+
+/* Class = "NSMenuItem"; title = "About PetAMac"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "Über PetAMac";
+
+/* Class = "NSMenu"; title = "Main Menu"; ObjectID = "AYu-sK-qS6"; */
+"AYu-sK-qS6.title" = "Menu";
+
+/* Class = "NSMenuItem"; title = "View"; ObjectID = "H8h-7b-M4v"; */
+"H8h-7b-M4v.title" = "Anzeige";
+
+/* Class = "NSMenu"; title = "View"; ObjectID = "HyV-fh-RgO"; */
+"HyV-fh-RgO.title" = "Anzeige";
+
+/* Class = "NSWindow"; title = "Pet-A-Mac"; ObjectID = "IQv-IB-iLA"; */
+"IQv-IB-iLA.title" = "Pet-A-Mac";
+
+/* Class = "NSTextFieldCell"; title = "Pet your furry Touchbar friend to make her purr.\nBut don't go against the fur! She doesn't like that!"; ObjectID = "dkv-Lq-yJO"; */
+"dkv-Lq-yJO.title" = "Streichle Dein Touchbar Tier, um es zum Schnurren zu bringen.\nAber nicht gegen den Strich! Das mag sie nicht!";
+
+/* Class = "NSMenuItem"; title = "Show Toolbar"; ObjectID = "snW-S8-Cw5"; */
+"snW-S8-Cw5.title" = "Toolbar anzeigen";
+
+/* Class = "NSMenu"; title = "PetAMac"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "PetAMac";
