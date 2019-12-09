@@ -1,10 +1,11 @@
-# Make your mac purr like a kitten!
+![PET](PET.png)
+
+# Make your Mac purr like a kitten!
 
 A cute little furry beast will live in your touch bar, sleeping peacefully - or purring happily when you pet it. But don't go against the fur or it will slash out at you!
 
 Great to calm your fidgets and reduce some anxiety.
 
-![PET](PET.png)
 ![Screenshot 1](scrsh1.jpg)
 ![Screenshot 2](scrsh2.jpg)
 
@@ -24,10 +25,12 @@ Don't go against the fur or too quickly! Noone likes that
 
 ## Get it (for non-developers):
 
-1. Download this file: [PetAMac.app](PetAMac.zip)
+1. Download this file: [PetAMac.app](PetAMac.zip). (Try right-clicking/`Save as..` in case it's not working)
 2. Double-click in Finder (will extract a new file `PetAMac.app`)
 3. Move that file to your `/Applications` folder
 4. Now you can start it from Spotlight 
+
+That app file is properly notarized with Apple and will *NOT* require any permissions!
 
 ## Build it (For you developers out there):
 Nothing special:
