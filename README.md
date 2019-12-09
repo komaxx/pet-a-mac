@@ -5,8 +5,8 @@ A cute little furry beast will live in your touch bar, sleeping peacefully - or 
 Great to calm your fidgets and reduce some anxiety.
 
 ![PET](PET.png)
-![Screenshot 1](scrsht.jpg)
-![Screenshot 2](scrsht.jpg)
+![Screenshot 1](scrsh1.jpg)
+![Screenshot 2](scrsh2.jpg)
 
 
 ## ... what?
@@ -43,4 +43,27 @@ Then this is probably not for you, unfortunately :/ You can use XCode to fake a 
 Yes, it does. This is a fun little toy, all good software engineering practices were ignored. With a vengence.
 
 ## License?
-Nah.
+Nah. Do whatever.
+
+Or, as we say in Legalese:
+#### MIT license
+
+Copyright (c) 2019 Matthias Schicker
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
