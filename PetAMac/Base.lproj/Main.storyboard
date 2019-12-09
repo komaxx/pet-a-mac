@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaDFRPlugin" version="14490.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14490.70"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+        <capability name="the Touch Bar" minToolsVersion="8.1" minSystemVersion="10.12.2" requiredIntegratedClassName="NSTouchBar"/>
+    </dependencies>
+    <scenes>
+        <!--Application-->
+        <scene sceneID="JPo-4y-FX3">
+            <objects>
+                <application id="hnw-xV-0zn" sceneMemberID="viewController">
+                    <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
+                        <items>
+                            <menuItem title="PetAMac" id="1Xt-HY-uBw">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="PetAMac" systemMenu="apple" id="uQy-DD-JDr">
+                                    <items>
+                                        <menuItem title="About PetAMac" id="5kV-Vb-QxS">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
+                                        <menuItem title="Quit PetAMac" keyEquivalent="q" id="4sb-4s-VLi">
+                                            <connections>
+                                                <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="View" id="H8h-7b-M4v">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="View" id="HyV-fh-RgO">
+                                    <items>
+                                        <menuItem title="Show Toolbar" keyEquivalent="t" id="snW-S8-Cw5">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="toggleToolbarShown:" target="Ady-hI-5gd" id="BXY-wc-z0C"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Customize Toolbar…" id="1UK-8n-QPP">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="runToolbarCustomizationPalette:" target="Ady-hI-5gd" id="pQI-g3-MTW"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
+                    </connections>
+                </application>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="PetAMac" customModuleProvider="target"/>
+                <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+                <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75" y="0.0"/>
+        </scene>
+        <!--Window Controller-->
+        <scene sceneID="R2V-B0-nI4">
+            <objects>
+                <windowController id="B8D-0N-5wS" customClass="PetAWindowController" customModule="PetAMac" customModuleProvider="target" sceneMemberID="viewController">
+                    <window key="window" title="Pet-A-Mac" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" titlebarAppearsTransparent="YES" titleVisibility="hidden" id="IQv-IB-iLA">
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES" fullSizeContentView="YES"/>
+                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+                        <rect key="contentRect" x="0.0" y="678" width="200" height="200"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
+                        <value key="minSize" type="size" width="200" height="200"/>
+                        <value key="maxSize" type="size" width="200" height="200"/>
+                        <connections>
+                            <outlet property="delegate" destination="B8D-0N-5wS" id="98r-iN-zZc"/>
+                        </connections>
+                    </window>
+                    <touchBar key="touchBar" id="ui7-dm-Goi">
+                        <touchBarItems>
+                            <touchBarItem id="OSm-Bt-Lfo">
+                                <viewController key="viewController" id="GMl-XZ-8Wb">
+                                    <view key="view" translatesAutoresizingMaskIntoConstraints="NO" id="nlI-P6-Q6A" customClass="FurView" customModule="PetAMac" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="685" height="30"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </view>
+                                </viewController>
+                            </touchBarItem>
+                        </touchBarItems>
+                    </touchBar>
+                    <connections>
+                        <segue destination="XfG-lQ-9wD" kind="relationship" relationship="window.shadowedContentViewController" id="cq2-FE-JQM"/>
+                    </connections>
+                </windowController>
+                <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-76.5" y="200"/>
+        </scene>
+        <!--PetA View Controller-->
+        <scene sceneID="hIz-AP-VOD">
+            <objects>
+                <viewController id="XfG-lQ-9wD" customClass="PetAViewController" customModule="PetAMac" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wO5-uQ-he2">
+                                <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="4fZ-WN-3Hx"/>
+                                    <constraint firstAttribute="width" constant="200" id="EuQ-Th-EO2"/>
+                                </constraints>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="app_background" id="HUQ-Ii-Ekc"/>
+                            </imageView>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="WdG-R1-dod">
+                                <rect key="frame" x="160" y="160" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="4ru-Zs-Fl1"/>
+                                    <constraint firstAttribute="height" constant="40" id="hwi-rG-6uI"/>
+                                </constraints>
+                                <buttonCell key="cell" type="inline" bezelStyle="inline" alignment="center" imageScaling="proportionallyDown" inset="2" id="eil-tj-NAW">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="smallSystemBold"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="didTapHelpButton:" target="XfG-lQ-9wD" id="WsR-2Y-v8h"/>
+                                    <segue destination="CxQ-9F-TQX" kind="popover" popoverAnchorView="WdG-R1-dod" popoverBehavior="t" preferredEdge="maxX" id="c5I-7k-OLF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="wO5-uQ-he2" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="0bJ-IA-Jz5"/>
+                            <constraint firstAttribute="bottom" secondItem="wO5-uQ-he2" secondAttribute="bottom" id="PWo-B3-nMB"/>
+                            <constraint firstItem="wO5-uQ-he2" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="bXk-v6-rMx"/>
+                            <constraint firstItem="WdG-R1-dod" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="gBD-df-VTB"/>
+                            <constraint firstItem="WdG-R1-dod" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="160" id="gwr-BH-EXO"/>
+                            <constraint firstAttribute="trailing" secondItem="wO5-uQ-he2" secondAttribute="trailing" id="i2f-7r-6kS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="helpButton" destination="WdG-R1-dod" id="JOk-mI-fl0"/>
+                    </connections>
+                </viewController>
+                <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-77" y="654"/>
+        </scene>
+        <!--Help View Controller-->
+        <scene sceneID="5OQ-xA-czZ">
+            <objects>
+                <viewController storyboardIdentifier="HelpViewController" id="CxQ-9F-TQX" customClass="HelpViewController" customModule="PetAMac" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="9A9-mQ-h1z" customClass="PopoverContentView" customModule="PetAMac" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="377" height="74"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" textCompletion="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aCQ-pT-w2S">
+                                <rect key="frame" x="18" y="20" width="341" height="34"/>
+                                <textFieldCell key="cell" allowsUndo="NO" sendsActionOnEndEditing="YES" alignment="center" id="dkv-Lq-yJO">
+                                    <font key="font" metaFont="systemMedium" size="13"/>
+                                    <string key="title">Pet your furry Touchbar friend to make her purr.
+But don't go against the fur! She doesn't like that!</string>
+                                    <color key="textColor" red="0.80784313725490198" green="0.27843137254901962" blue="0.6588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="aCQ-pT-w2S" firstAttribute="leading" secondItem="9A9-mQ-h1z" secondAttribute="leading" constant="20" id="8a3-f1-gEu"/>
+                            <constraint firstAttribute="bottom" secondItem="aCQ-pT-w2S" secondAttribute="bottom" constant="20" id="M67-cK-i08"/>
+                            <constraint firstAttribute="trailing" secondItem="aCQ-pT-w2S" secondAttribute="trailing" constant="20" id="VZV-ze-6sG"/>
+                            <constraint firstItem="aCQ-pT-w2S" firstAttribute="top" secondItem="9A9-mQ-h1z" secondAttribute="top" constant="20" id="bTw-nz-AHL"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <customObject id="evJ-m5-dYh" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="458.5" y="651"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="app_background" width="200" height="200"/>
+    </resources>
+</document>

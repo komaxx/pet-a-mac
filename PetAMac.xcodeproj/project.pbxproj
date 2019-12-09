@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE0549BC2135FFC600E44F5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0549BB2135FFC600E44F5A /* Assets.xcassets */; };
+		CE0549BE21369E2700E44F5A /* NSImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0549BD21369E2700E44F5A /* NSImageExtensions.swift */; };
+		CE0549C2213DABF100E44F5A /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0549C1213DABF100E44F5A /* HelpViewController.swift */; };
+		CE0549C4213DDF0200E44F5A /* PopoverContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0549C3213DDF0200E44F5A /* PopoverContentView.swift */; };
+		CED80A8D2134209C00A3AD9F /* PurrPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED80A8C2134209C00A3AD9F /* PurrPlayer.swift */; };
+		CED80A8F2134261400A3AD9F /* purr_0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CED80A8E2134261400A3AD9F /* purr_0.mp3 */; };
+		CED80A9221342FBB00A3AD9F /* screech_0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CED80A9121342FBA00A3AD9F /* screech_0.mp3 */; };
+		CED80A942134315100A3AD9F /* screech_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CED80A932134315100A3AD9F /* screech_1.mp3 */; };
+		CED80A96213436FE00A3AD9F /* shake_0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CED80A95213436FE00A3AD9F /* shake_0.mp3 */; };
+		CEF5A227212D9C0200F6D366 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5A226212D9C0200F6D366 /* AppDelegate.swift */; };
+		CEF5A229212D9C0200F6D366 /* PetAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5A228212D9C0200F6D366 /* PetAViewController.swift */; };
+		CEF5A22E212D9C0400F6D366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF5A22C212D9C0400F6D366 /* Main.storyboard */; };
+		CEF5A237212DBBE900F6D366 /* PetAWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5A236212DBBE900F6D366 /* PetAWindowController.swift */; };
+		CEF5A23B212EE1D400F6D366 /* FurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5A23A212EE1D400F6D366 /* FurView.swift */; };
+		CEF5A23D2130322900F6D366 /* Fur.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5A23C2130322900F6D366 /* Fur.swift */; };
+		CEF5A245213037E100F6D366 /* PetAMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5A244213037E100F6D366 /* PetAMacTests.swift */; };
+		CEF5A24D2130384100F6D366 /* FurTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5A24C2130384100F6D366 /* FurTest.swift */; };
+		CEF5A24E2130387000F6D366 /* Fur.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5A23C2130322900F6D366 /* Fur.swift */; };
+		CEF9952E21307255001E9C1E /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9952D21307255001E9C1E /* Mood.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEF5A247213037E100F6D366 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF5A21B212D9C0200F6D366 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF5A222212D9C0200F6D366;
+			remoteInfo = PetAMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE0549BB2135FFC600E44F5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE0549BD21369E2700E44F5A /* NSImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImageExtensions.swift; sourceTree = "<group>"; };
+		CE0549C1213DABF100E44F5A /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		CE0549C3213DDF0200E44F5A /* PopoverContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverContentView.swift; sourceTree = "<group>"; };
+		CE9C16E3213EC0E3007D41FF /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		CED80A8C2134209C00A3AD9F /* PurrPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurrPlayer.swift; sourceTree = "<group>"; };
+		CED80A8E2134261400A3AD9F /* purr_0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = purr_0.mp3; sourceTree = "<group>"; };
+		CED80A9121342FBA00A3AD9F /* screech_0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = screech_0.mp3; sourceTree = "<group>"; };
+		CED80A932134315100A3AD9F /* screech_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = screech_1.mp3; sourceTree = "<group>"; };
+		CED80A95213436FE00A3AD9F /* shake_0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shake_0.mp3; sourceTree = "<group>"; };
+		CEF5A223212D9C0200F6D366 /* PetAMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetAMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF5A226212D9C0200F6D366 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEF5A228212D9C0200F6D366 /* PetAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetAViewController.swift; sourceTree = "<group>"; };
+		CEF5A22D212D9C0400F6D366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEF5A22F212D9C0400F6D366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF5A230212D9C0400F6D366 /* PetAMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PetAMac.entitlements; sourceTree = "<group>"; };
+		CEF5A236212DBBE900F6D366 /* PetAWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetAWindowController.swift; sourceTree = "<group>"; };
+		CEF5A23A212EE1D400F6D366 /* FurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurView.swift; sourceTree = "<group>"; };
+		CEF5A23C2130322900F6D366 /* Fur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fur.swift; sourceTree = "<group>"; };
+		CEF5A242213037E000F6D366 /* PetAMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetAMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF5A244213037E100F6D366 /* PetAMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetAMacTests.swift; sourceTree = "<group>"; };
+		CEF5A246213037E100F6D366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF5A24C2130384100F6D366 /* FurTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurTest.swift; sourceTree = "<group>"; };
+		CEF9952D21307255001E9C1E /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEF5A220212D9C0200F6D366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF5A23F213037E000F6D366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEF5A21A212D9C0200F6D366 = {
+			isa = PBXGroup;
+			children = (
+				CEF5A225212D9C0200F6D366 /* PetAMac */,
+				CEF5A243213037E000F6D366 /* PetAMacTests */,
+				CEF5A224212D9C0200F6D366 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEF5A224212D9C0200F6D366 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF5A223212D9C0200F6D366 /* PetAMac.app */,
+				CEF5A242213037E000F6D366 /* PetAMacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF5A225212D9C0200F6D366 /* PetAMac */ = {
+			isa = PBXGroup;
+			children = (
+				CE0549C3213DDF0200E44F5A /* PopoverContentView.swift */,
+				CE0549BB2135FFC600E44F5A /* Assets.xcassets */,
+				CED80A95213436FE00A3AD9F /* shake_0.mp3 */,
+				CED80A9121342FBA00A3AD9F /* screech_0.mp3 */,
+				CED80A932134315100A3AD9F /* screech_1.mp3 */,
+				CED80A8E2134261400A3AD9F /* purr_0.mp3 */,
+				CEF5A226212D9C0200F6D366 /* AppDelegate.swift */,
+				CEF5A228212D9C0200F6D366 /* PetAViewController.swift */,
+				CEF5A22C212D9C0400F6D366 /* Main.storyboard */,
+				CEF5A22F212D9C0400F6D366 /* Info.plist */,
+				CEF5A230212D9C0400F6D366 /* PetAMac.entitlements */,
+				CEF5A236212DBBE900F6D366 /* PetAWindowController.swift */,
+				CEF5A23A212EE1D400F6D366 /* FurView.swift */,
+				CEF5A23C2130322900F6D366 /* Fur.swift */,
+				CEF9952D21307255001E9C1E /* Mood.swift */,
+				CED80A8C2134209C00A3AD9F /* PurrPlayer.swift */,
+				CE0549BD21369E2700E44F5A /* NSImageExtensions.swift */,
+				CE0549C1213DABF100E44F5A /* HelpViewController.swift */,
+			);
+			path = PetAMac;
+			sourceTree = "<group>";
+		};
+		CEF5A243213037E000F6D366 /* PetAMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF5A244213037E100F6D366 /* PetAMacTests.swift */,
+				CEF5A246213037E100F6D366 /* Info.plist */,
+				CEF5A24C2130384100F6D366 /* FurTest.swift */,
+			);
+			path = PetAMacTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEF5A222212D9C0200F6D366 /* PetAMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF5A233212D9C0400F6D366 /* Build configuration list for PBXNativeTarget "PetAMac" */;
+			buildPhases = (
+				CEF5A21F212D9C0200F6D366 /* Sources */,
+				CEF5A220212D9C0200F6D366 /* Frameworks */,
+				CEF5A221212D9C0200F6D366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetAMac;
+			productName = PetAMac;
+			productReference = CEF5A223212D9C0200F6D366 /* PetAMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEF5A241213037E000F6D366 /* PetAMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF5A249213037E100F6D366 /* Build configuration list for PBXNativeTarget "PetAMacTests" */;
+			buildPhases = (
+				CEF5A23E213037E000F6D366 /* Sources */,
+				CEF5A23F213037E000F6D366 /* Frameworks */,
+				CEF5A240213037E000F6D366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF5A248213037E100F6D366 /* PBXTargetDependency */,
+			);
+			name = PetAMacTests;
+			productName = PetAMacTests;
+			productReference = CEF5A242213037E000F6D366 /* PetAMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEF5A21B212D9C0200F6D366 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Matthias Schicker";
+				TargetAttributes = {
+					CEF5A222212D9C0200F6D366 = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.HardenedRuntime = {
+								enabled = 1;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					CEF5A241213037E000F6D366 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CEF5A222212D9C0200F6D366;
+					};
+				};
+			};
+			buildConfigurationList = CEF5A21E212D9C0200F6D366 /* Build configuration list for PBXProject "PetAMac" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+			);
+			mainGroup = CEF5A21A212D9C0200F6D366;
+			productRefGroup = CEF5A224212D9C0200F6D366 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEF5A222212D9C0200F6D366 /* PetAMac */,
+				CEF5A241213037E000F6D366 /* PetAMacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEF5A221212D9C0200F6D366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED80A8F2134261400A3AD9F /* purr_0.mp3 in Resources */,
+				CED80A942134315100A3AD9F /* screech_1.mp3 in Resources */,
+				CED80A96213436FE00A3AD9F /* shake_0.mp3 in Resources */,
+				CEF5A22E212D9C0400F6D366 /* Main.storyboard in Resources */,
+				CE0549BC2135FFC600E44F5A /* Assets.xcassets in Resources */,
+				CED80A9221342FBB00A3AD9F /* screech_0.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF5A240213037E000F6D366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEF5A21F212D9C0200F6D366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0549C4213DDF0200E44F5A /* PopoverContentView.swift in Sources */,
+				CED80A8D2134209C00A3AD9F /* PurrPlayer.swift in Sources */,
+				CEF5A23B212EE1D400F6D366 /* FurView.swift in Sources */,
+				CEF5A23D2130322900F6D366 /* Fur.swift in Sources */,
+				CEF5A229212D9C0200F6D366 /* PetAViewController.swift in Sources */,
+				CE0549C2213DABF100E44F5A /* HelpViewController.swift in Sources */,
+				CEF5A237212DBBE900F6D366 /* PetAWindowController.swift in Sources */,
+				CEF9952E21307255001E9C1E /* Mood.swift in Sources */,
+				CE0549BE21369E2700E44F5A /* NSImageExtensions.swift in Sources */,
+				CEF5A227212D9C0200F6D366 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF5A23E213037E000F6D366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF5A24E2130387000F6D366 /* Fur.swift in Sources */,
+				CEF5A245213037E100F6D366 /* PetAMacTests.swift in Sources */,
+				CEF5A24D2130384100F6D366 /* FurTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEF5A248213037E100F6D366 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF5A222212D9C0200F6D366 /* PetAMac */;
+			targetProxy = CEF5A247213037E100F6D366 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEF5A22C212D9C0400F6D366 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF5A22D212D9C0400F6D366 /* Base */,
+				CE9C16E3213EC0E3007D41FF /* de */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEF5A231212D9C0400F6D366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEF5A232212D9C0400F6D366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CEF5A234212D9C0400F6D366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PetAMac/PetAMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2CVU9AA4FB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = PetAMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.komaxx.PetAMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		CEF5A235212D9C0400F6D366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PetAMac/PetAMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2CVU9AA4FB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = PetAMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.komaxx.PetAMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		CEF5A24A213037E100F6D366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2CVU9AA4FB;
+				INFOPLIST_FILE = PetAMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.komaxx.PetAMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetAMac.app/Contents/MacOS/PetAMac";
+			};
+			name = Debug;
+		};
+		CEF5A24B213037E100F6D366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2CVU9AA4FB;
+				INFOPLIST_FILE = PetAMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.komaxx.PetAMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetAMac.app/Contents/MacOS/PetAMac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEF5A21E212D9C0200F6D366 /* Build configuration list for PBXProject "PetAMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF5A231212D9C0400F6D366 /* Debug */,
+				CEF5A232212D9C0400F6D366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF5A233212D9C0400F6D366 /* Build configuration list for PBXNativeTarget "PetAMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF5A234212D9C0400F6D366 /* Debug */,
+				CEF5A235212D9C0400F6D366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF5A249213037E100F6D366 /* Build configuration list for PBXNativeTarget "PetAMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF5A24A213037E100F6D366 /* Debug */,
+				CEF5A24B213037E100F6D366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEF5A21B212D9C0200F6D366 /* Project object */;
+}
