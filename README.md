@@ -18,10 +18,10 @@ When it's running and in foreground, your furry friend will appear in your touch
 Pet it for a bit! At some point it will start looking happy and purring.
 
 #### Nothing's happening:
-Patience! Or: Check your volume.
+Patience! Also: Check your volume.
 
 #### Butbut, it's screeching!!
-Don't go against the fur or too quickly! Noone likes that
+Don't go against the fur or too quickly! Noone likes that.
 
 ## Get it (for non-developers):
 
